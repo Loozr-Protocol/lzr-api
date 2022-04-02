@@ -1,3 +1,12 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Waitlist
+
+
+class WaitlistAdmin(admin.ModelAdmin):
+    list_display = (
+        'email', 'category', 'created_at',
+    )
+
+
+admin.site.register(Waitlist, WaitlistAdmin)
