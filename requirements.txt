@@ -5,3 +5,4 @@ flake8==4.0.1
 psycopg2-binary==2.9.3
 python-decouple==3.6
 model-mommy==2.0.0
+django-cors-headers==3.11.0
