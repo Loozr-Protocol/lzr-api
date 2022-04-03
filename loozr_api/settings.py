@@ -61,7 +61,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:3000",
     "loozr-env.eba-cks6qqyn.eu-central-1.elasticbeanstalk.com",
-    "api.loozr.io",
+    "loozr.io",
 ]
 
 ROOT_URLCONF = 'loozr_api.urls'
