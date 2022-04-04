@@ -60,8 +60,10 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:3000",
-    "loozr-env.eba-cks6qqyn.eu-central-1.elasticbeanstalk.com",
-    "loozr.io",
+    "https://loozr-prod.eba-cks6qqyn.eu-central-1.elasticbeanstalk.com",
+    "http://loozr-prod.eba-cks6qqyn.eu-central-1.elasticbeanstalk.com",
+    "http://loozr.io",
+    "https://loozr.io",
 ]
 
 ROOT_URLCONF = 'loozr_api.urls'
